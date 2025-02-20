@@ -2,6 +2,9 @@
 ## Overview
 This Blinkit Dashboard provides a comprehensive analysis of sales trends, order analytics, customer demographics, and product performance. Built using Power BI, the dashboard helps in deriving actionable insights to optimize business strategies and enhance customer satisfaction.
 
+*.m linguist-language=XQuery
+
+
 # Power BI Dashboard
 ![Power BI](https://img.shields.io/badge/Made%20with-Power%20BI-blue)
 
