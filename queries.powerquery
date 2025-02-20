@@ -6,3 +6,6 @@ let
     #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value","reg","Regular",Replacer.ReplaceText,{"Item Fat Content"})
 in
     #"Replaced Value1"
+
+*.m linguist-language=XQuery
+
