@@ -1,0 +1,8 @@
+let
+    Source = Excel.Workbook(File.Contents("C:\Users\Sahil\Downloads\BlinkIT Grocery Data.xlsx"), null, true),
+    Table1_Table = Source{[Item="Table1",Kind="Table"]}[Data],
+    #"Changed Type" = Table.TransformColumnTypes(Table1_Table,{{"Item Fat Content", type text}, {"Item Identifier", type text}, {"Item Type", type text}, {"Outlet Establishment Year", Int64.Type}, {"Outlet Identifier", type text}, {"Outlet Location Type", type text}, {"Outlet Size", type text}, {"Outlet Type", type text}, {"Item Visibility", type number}, {"Item Weight", type number}, {"Sales", type number}, {"Rating", Int64.Type}}),
+    #"Replaced Value" = Table.ReplaceValue(#"Changed Type","LF","Low Fat",Replacer.ReplaceText,{"Item Fat Content"}),
+    #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value","reg","Regular",Replacer.ReplaceText,{"Item Fat Content"})
+in
+    #"Replaced Value1"
