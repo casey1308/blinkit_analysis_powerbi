@@ -2,6 +2,11 @@
 ## Overview
 This Blinkit Dashboard provides a comprehensive analysis of sales trends, order analytics, customer demographics, and product performance. Built using Power BI, the dashboard helps in deriving actionable insights to optimize business strategies and enhance customer satisfaction.
 
+## Technology Usage
+
+- **Power BI**: 100%
+
+
 ## Features 🚀
 ### 1.Sales Trends 📈
 - Tracks daily, weekly, and monthly sales performance.
