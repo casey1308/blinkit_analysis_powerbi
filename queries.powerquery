@@ -7,5 +7,3 @@ let
 in
     #"Replaced Value1"
 
-*.m linguist-language=XQuery
-
