@@ -1,3 +1,2 @@
-*.pbix linguist-detectable=true
-*.pbix linguist-language=PowerBI
-*.pbix linguist-vendored=false
+*.xq linguist-language=XQuery
+*.xquery linguist-language=XQuery
